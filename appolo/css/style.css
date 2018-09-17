@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+header {
+    width: 1500px;
+    height: 750px;
+    background-image: url(..//image/photo-man.png);
+    border: 3px solid #efefef;
+    margin: 50px auto;
+    position: relative;
+}
+.leter-a {
+    width: 459px;
+    height: 747px;
+    margin-left: 9px;
+    background-image: url(..//image/A.png);
+    position: absolute;
+}
+.menu{
+    width: 92px;
+    height: 16px;
+    margin-right: 60px;
+    margin-top: 38px;
+    background-color: #ffffff;
+    color: black;
+    text-align: left;
+    font-family: 'Raleway';
+    position: relative;
+    float: right;
+}
+#check-menu {
+    display: none;
+}
+label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+    line-height: 16px;
+}
+.burger-line{
+    position: absolute;
+    top: 2px;
+    right: 1px;
+    width: 20px;
+    height: 2px;
+    background-color: #000000;
+    transition: .5s all;
+}
+.second, .third{
+    top: 8px;
+}
+.fourth{
+    top: 14px;
+}
+.main-menu{
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    text-align: center;
+    transform: translateY(100%);
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: .5s all;   
+}
+#check-menu:checked ~ .main-menu{
+    max-height: 200px;
+    font-size: 14px;
+}
+a{
+    display: block;
+    width: 100%;
+    padding: 3px;
+    color: #000000;
+    text-decoration: none;
+}
+a:hover{
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+#check-menu:checked ~ .first{
+    display: none;
+}
+#check-menu:checked ~ .second{
+    transform: rotate(45deg);
+}
+#check-menu:checked ~ .third{
+    transform: rotate(-45deg);
+}
+#check-menu:checked ~ .fourth{
+    display: none;
+}
+.text-header{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-top: 243px;
+    margin-left: 170px;
+}
+.text-header h1{
+    color: #000000;
+    font-size: 50px;
+    line-height: 30.46px;
+    font-family: "Raleway";
+    font-weight: 100;
+}
+.text-header strong{
+    color: #000000;
+    font-size: 50px;
+    line-height: 30.46px;
+    font-family: "Raleway";
+    font-weight: 700;
+}
+p{
+    color: #000000;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-top: 29px;
+    padding-bottom: 37px;
+}
+.line{
+    width: 3px;
+    height: 80px;
+    border-left: 2px solid #000000;
+}
+
+.photo {
+    width: 1500px;
+    height: 750px;
+    background-color: #efefef;
+    border: 3px solid #efefef;
+    margin: 50px auto;
+    position: relative;
+}
+.leter-p {
+    width: 369px;
+    height: 747px;
+    margin-left: 93px;
+    background-image: url(..//image/P.png);
+    position: absolute;
+}
+.canon {
+    width: 518px;
+    height: 524px;
+    margin-top: 122px;
+    margin-left: 88px;
+    background-image: url(../image/photo1.png);
+    position: absolute;
+    /* box-shadow: 8px 10px 59px rgba(0, 0, 1, 0.38); */
+}
+
+.girl {
+    width: 1483px;
+    height: 750px;
+    background-image: url(..//image/photo-girl-o.png);
+    margin: 50px auto;
+}
+
+.bridg {
+    width: 1500px;
+    height: 750px;
+    background-color: #efefef;
+    border: 3px solid #efefef;
+    margin: 50px auto;
+}
+.leter-l {
+    width: 300px;
+    height: 745px;
+    background-image: url(..//image/L.png);
+    margin-left: 91px;
+}
+
+.albom {
+    width: 1500px;
+    height: 750px;
+    background-color: #efefef;
+    border: 3px solid #efefef;
+    margin: 50px auto;
+}
+
+footer {
+    width: 1500px;
+    height: 750px;
+    background-color: #efefef;
+    border: 3px solid #efefef;
+    margin: 50px auto;
+}
+.leter-o {
+    width: 430px;
+    height: 745px;
+    background-image: url(..//image/O.png);
+}
